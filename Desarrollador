@@ -1,0 +1,19 @@
+package com.mycompany.mainnnnn;
+public class Desarrollador extends Empleado {
+    String LenguajeDominante;
+    public Desarrollador(String Nombre, int ID, double SalarioBase , String LenguajeDominante) {
+        super(Nombre, ID, SalarioBase);
+        this.LenguajeDominante= LenguajeDominante;
+    }
+    @Override
+    public double CalcularSalario(){
+        return SalarioBase + 0.10 ;
+    }
+    @Override
+    public void MostrarInfo(){
+        super.MostrarInfo();
+        System.out.println(" Su Lenguaje Dominante es : " + LenguajeDominante);
+        System.out.println(" Su Salario es de : " +CalcularSalario());
+        System.out.println("===================================");
+    }
+}

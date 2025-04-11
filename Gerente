@@ -1,0 +1,21 @@
+package com.mycompany.mainnnnn;
+
+public class Gerente extends Empleado {
+     int EquipoACargo;
+    public Gerente(String Nombre, int ID, double SalarioBase, int EquipoACargo) {
+        super(Nombre, ID, SalarioBase);
+        this.EquipoACargo=EquipoACargo;
+    }
+    
+    @Override
+    public double CalcularSalario(){
+        return SalarioBase + 0.20;
+    }
+    @Override
+    public void MostrarInfo(){
+        super.MostrarInfo();
+        System.out.println(" El Equipo A Cargo es  : " + EquipoACargo);
+        System.out.println(" Su Salario es de : " +CalcularSalario());
+        System.out.println("===================================");
+    }
+}

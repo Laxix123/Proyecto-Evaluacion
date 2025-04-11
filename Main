@@ -1,0 +1,20 @@
+package com.mycompany.mainnnnn;
+
+public class Mainnnnn {
+
+    public static void main(String[] args) {
+        
+        Empleado empleado[];
+        empleado = new Empleado[3];
+        
+        empleado[0] = new Desarrollador(" Juan " , 2 , 5000.5 , " Python ");
+        empleado[1] = new Gerente(" David ", 8 , 2000.3 , 3);
+        empleado[2] = new Proyecto(" Alex " , 10 , 5000.3 , "Proyecto X" ,50000.0);
+        
+        for(Empleado emp : empleado){
+            emp.MostrarInfo();
+            emp.CalcularSalario();
+        }
+        //for each
+    }
+}

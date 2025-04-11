@@ -9,7 +9,7 @@ public class Gerente extends Empleado {
     
     @Override
     public double CalcularSalario(){
-        return SalarioBase + 0.20;
+        return SalarioBase +(SalarioBase * 0.20 );
     }
     @Override
     public void MostrarInfo(){

@@ -1,0 +1,21 @@
+package com.mycompany.mainnnnn;
+
+public class Proyecto extends Empleado {
+    String NombreProyecto ;
+    double Presupuesto;
+    public Proyecto(String Nombre, int ID, double SalarioBase,String NombreProyecto,double Presupuesto) {
+        super(Nombre, ID, SalarioBase);
+        this.NombreProyecto= NombreProyecto ;
+        this.Presupuesto= Presupuesto;    
+    }
+    @Override
+    public void MostrarInfo(){
+        super.MostrarInfo();
+        System.out.println(" ");
+        System.out.println(" Los detalles del Proyecto son : " );
+        System.out.println(" El Nombre del Proyecto es : " + NombreProyecto );
+        System.out.println(" El Presupuesto del Proyecto es : " + Presupuesto );
+        System.out.println(" El Responsable del Proyecto es : " + super.Nombre);
+        System.out.println("===================================");
+    }
+}

@@ -1,0 +1,24 @@
+package com.mycompany.mainnnnn;
+
+public class Empleado {
+      String Nombre ;
+      int ID;
+      double SalarioBase;
+    
+    public Empleado(String Nombre , int ID , double SalarioBase){   
+        this.Nombre = Nombre ;
+        this.ID = ID;
+        this.SalarioBase = SalarioBase;
+    }
+    
+    public double CalcularSalario(){
+        return this.SalarioBase;
+    }
+    
+    public void MostrarInfo(){
+        System.out.println(" Su Nombre de Empleado es  : " + Nombre );
+        System.out.println(" Su ID de Empleado es : " + ID);
+        System.out.println(" Su SalarioBase es de : " + CalcularSalario());
+        
+    }
+}

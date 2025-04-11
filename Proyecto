@@ -15,7 +15,7 @@ public class Proyecto extends Empleado {
         System.out.println(" Los detalles del Proyecto son : " );
         System.out.println(" El Nombre del Proyecto es : " + NombreProyecto );
         System.out.println(" El Presupuesto del Proyecto es : " + Presupuesto );
-        System.out.println(" El Responsable del Proyecto es : " + super.Nombre);
+        System.out.println(" El Responsable del Proyecto es : " + );
         System.out.println("===================================");
     }
 }

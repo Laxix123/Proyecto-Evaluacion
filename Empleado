@@ -18,7 +18,7 @@ public class Empleado {
     public void MostrarInfo(){
         System.out.println(" Su Nombre de Empleado es  : " + Nombre );
         System.out.println(" Su ID de Empleado es : " + ID);
-        System.out.println(" Su SalarioBase es de : " + CalcularSalario());
+        System.out.println(" Su SalarioBase es de : " + SalarioBase);
         
     }
 }

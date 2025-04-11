@@ -7,7 +7,7 @@ public class Desarrollador extends Empleado {
     }
     @Override
     public double CalcularSalario(){
-        return SalarioBase + 0.10 ;
+        return SalarioBase  +(SalarioBase *0.10) ;
     }
     @Override
     public void MostrarInfo(){

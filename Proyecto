@@ -3,6 +3,7 @@ package com.mycompany.mainnnnn;
 public class Proyecto extends Empleado {
     String NombreProyecto ;
     double Presupuesto;
+    Empleado .....;
     public Proyecto(String Nombre, int ID, double SalarioBase,String NombreProyecto,double Presupuesto) {
         super(Nombre, ID, SalarioBase);
         this.NombreProyecto= NombreProyecto ;
